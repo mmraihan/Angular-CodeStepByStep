@@ -11,5 +11,5 @@ export class ChildComponent implements OnInit {
 
   ngOnInit(): void {
   }
-@Input() item=0
+@Input() item: {name: string, email: string}={name:'', email: ''}
 }

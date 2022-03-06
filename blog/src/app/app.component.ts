@@ -6,10 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Pass data from Parent to Child';
-  data=10;
-  updateData(){
-    this.data=Math.random();
-  }
+  title="Reusable component";
+
+  userDetails=[
+    {name: 'A', email: 'aaaa@example.com'},
+    {name: 'B', email: 'aaaa@example.com'},
+    {name: 'C', email: 'aaaa@example.com'},
+  ]
 
 }
