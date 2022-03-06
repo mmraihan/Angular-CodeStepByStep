@@ -8,10 +8,6 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title="Reusable component";
 
-  userDetails=[
-    {name: 'A', email: 'aaaa@example.com'},
-    {name: 'B', email: 'aaaa@example.com'},
-    {name: 'C', email: 'aaaa@example.com'},
-  ]
+
 
 }
