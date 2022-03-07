@@ -6,10 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title="template driven form";
-
-  loginUser(item: any){
-      console.log(item)
-  }
+  title="App Component Works";
 
 }
