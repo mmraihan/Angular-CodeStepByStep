@@ -18,6 +18,14 @@ export class AppComponent {
     });
   }
 
+  getUserFormData(data: any){
+    console.warn(data)
+    this.userData.saveUser(data).subscribe((result)=>{
+      console.warn(result)
+    });
+  }
+
+
 
  
 }

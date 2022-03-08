@@ -7,4 +7,14 @@
     </li>
 </ul>
 
-<app-footer></app-footer>
+<form #userForm="ngForm" (ngSubmit)="getUserFormData(userForm.value)" >
+    <input type="text" name="CardOwnerName" placeholder="Enter CardOwnerName" ngModel><br><br>
+    <input type="text" name="CardNumber" placeholder="Enter CardNumber" ngModel><br><br>
+    <input type="text" name="ExpirationDate" placeholder="Enter ExpirationDate" ngModel><br><br>
+    <input type="text" name="SecurityCode" placeholder="Enter SecurityCode" ngModel><br><br>
+
+    <button>Add New User</button>
+    
+</form>
+
+

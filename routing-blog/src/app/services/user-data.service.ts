@@ -13,6 +13,9 @@ export class UserDataService {
   {
     return this.http.get(this.url)
   }
- 
+
+ saveUser(data: any){
+   return this.http.post(this.url, data)
+ }
 
 }
