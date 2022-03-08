@@ -9,6 +9,15 @@ import { UserDataService } from './services/user-data.service';
 export class AppComponent {
   title = 'Service';
 
+  users: any;
+  constructor(private userData:UserDataService )
+  {
+    this.userData.users().subscribe((data)=>{
+      console.warn(data)
+      this.users=data;
+    });
+  }
+
 
  
 }

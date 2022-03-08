@@ -1,4 +1,10 @@
 <h1>{{title}}</h1>
+<ul>
+    <li *ngFor="let data of users">
+        {{data.paymentDetyailId}}-----
+        {{data.cardOwnerName}}
 
+    </li>
+</ul>
 
 <app-footer></app-footer>
