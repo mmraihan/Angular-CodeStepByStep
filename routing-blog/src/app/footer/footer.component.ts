@@ -11,11 +11,6 @@ export class FooterComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  memberData=[
-    {name: 'Sahik', email: 'sahik@example.com'},
-    {name: 'Mahin', email: 'mahin@example.com'},
-    {name: 'Ulfat', email: 'ulfat@example.com'},
-    {name: 'ALayna', email: 'alayna@example.com'}
-  ]
+  
 
 }
