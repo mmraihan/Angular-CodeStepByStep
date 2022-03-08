@@ -8,14 +8,7 @@ import { UserDataService } from './services/user-data.service';
 })
 export class AppComponent {
   title = 'Service';
-  user: any;
-  
 
-  constructor(private userData: UserDataService ){
-    console.warn(userData.users())
-    this.user=this.userData.users();
-   
-  }
 
  
 }
